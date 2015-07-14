@@ -168,11 +168,28 @@ section {
   padding: 75px 0;
 }
 
+div {
+  border: 1px solid black;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+p {
+  font-size: 16px;
+}
+
 .wrapper {
   max-width: 1280px;
   margin: 0 auto;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .left {
@@ -211,6 +228,30 @@ section {
   width: 25%;
 }
 
+.three-quarters {
+  width: 75%;
+}
+
 .text-center {
   text-align: center;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.about-main {
+  width: 45%;
+}
+
+.features-main {
+  width: 55%;
+}
+
+.contact-menu-sm {
+  width: 10%;
+}
+
+.contact-menu-lg {
+  width: 90%;
 }
