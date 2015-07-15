@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contractor</title>
+
+
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<nav>
+		<div class="nav1">
+			<div class="wrapper clearfix">
+				<div class="location left">
+					<p>Blake medical center - Bradenton, FL</p>
+				</div>
+				<div class="mini-menu right">
+					<ul class="mini-menu-container">
+						<li class="">Demos</li>
+						<li class="">Extra pages</li>
+						<li class="">My account</li>
+						<li class="">Buy now</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="nav2">
+			<div class="wrapper clearfix">
+				<div class="logo left">
+					<!-- <div class="row clearfix"> -->
+						<div class="logo-img left">
+							<img src="assets/logo.png" alt="" class="img-responsive">
+						</div>
+						<div class="logo-name left">
+							<h1>Contractor</h1>
+						</div>
+					<!-- </div> -->
+				</div>
+				<div class="nav-doodads right">
+					<input type="search">
+					<div class="check-out">
+						<p>$2.00</p>
+					</div>
+					<i class="fa fa-bars"></i>
+				</div>
+			</div>
+		</div>
+		<div class="nav3">
+			<div class="wrapper clearfix">
+				<div class="wrapper clearfix">
+					<div class="menu-container left">
+						<ul>
+							<li class="nav-border-right">Home</li>
+							<li class="nav-border-right">About Us</li>
+							<li class="nav-border-right">News</li>
+							<li class="nav-border-right">Services</li>
+							<li class="nav-border-right">Project</li>
+							<li class="nav-border-right">Store</li>
+							<li class="nav-border-right">Features</li>
+							<li class="nav-border-right">Contact Us</li>
+						</ul>
+					</div>
+					<div class="social-buttons right">
+						<i class="fa fa-pinterest-p"></i>
+						<i class="fa fa-google-plus"></i>
+						<i class="fa fa-twitter"></i>
+						<i class="fa fa-instagram"></i>
+						<i class="fa fa-facebook"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<header class="text-center">
+		<div class="container">
+			<div class="jumbotron">
+				<h2>Construction and Bidding</h2>
+				<h3>Good buildings come from good people, and all problems are solved by good designs</h3>
+			</div>
+			<div class="row">
+			<a href="#">
+				<div class="jumbotron-buttons left col-md-3 col-xs-6">
+					<div class="icon services-icon"></div>
+					<p>Construction services</p>
+				</div>
+			</a>
+			<a href="#"><div class="jumbotron-buttons left  col-md-3 col-xs-6">
+				<div class="icon concrete-icon"></div>
+				<p>Concrete transport</p>
+			</div></a>
+			<a href="#"><div class="jumbotron-buttons left col-md-3 col-xs-6">
+				<div class="icon tooling-icon"></div>
+				<p>Specialist Tooling</p>
+			</div></a>
+			<a href="#"><div class="jumbotron-buttons left  col-md-3 col-xs-6">
+				<div class="icon kitchen-icon"></div>
+				<p>Kitchen interior design</p>
+			</div></a>
+			</div>
+		</div>
+	</header>
+	<section class="about">
+		<div class="wrapper clearfix">
+			<div class="serious-guy three-tenths left">
+				<img class="img-responsive" src="assets/contractor.png" alt="Serious guy">
+			</div>
+			<div class="about-main left">
+				<h4>sadasdasd</h4>
+				<p>Lorem bizzle fo shizzle mah nizzle fo rizzle, mah home g-dizzle mofo amizzle, consectetizzle adipiscing shiznit. Nullizzle boom shackalack velizzle, dang volutpizzle, dizzle the bizzle, fo shizzle vizzle, arcu. Pellentesque ghetto tortor. Sed eros. Boom shackalack shut the shizzle up pimpin' fo shizzle tellivizzle tempus check it out.</p>
+
+				<p>Maurizzle pellentesque nibh et turpizzle. Ass black boom shackalack. Mah nizzle the bizzle rhoncizzle fizzle. In hac mofo platea dictumst. Donec dapibizzle. Pot dizzle pizzle, pretium sure, mattizzle dang, cool get down get down, nunc. Gangsta the bizzle. Integer sempizzle bling bling ass pizzle.</p>
+				<div class="one-half">
+					<img class="img-responsive" src="assets/signature.png" alt="signature">
+				</div>
+			</div>
+			<div class="about-hours one-quarter left">
+				<div class="hours-box">
+					
+					<h4>Opening Hours</h4>
+					<img src="assets/underline.png" alt="" class="underline img-responsive">
+					<ul class="hours-container clearfix">
+						<li class="row clearfix">
+							<span class="left">Monday</span>
+							<span class="right">9:30am - 6:00pm</span>
+						</li>
+						<li class="row clearfix">
+							<span class="left">Tuesday</span>
+							<span class="right">9:30am - 6:00pm</span>
+						</li>
+						<li class="row clearfix">
+							<span class="left">Wednesday</span>
+							<span class="right">9:30am - 6:00pm</span>
+						</li>
+						<li class="row clearfix">
+							<span class="left">Thursday</span>
+							<span class="right">9:30am - 6:00pm</span>
+						</li>
+						<li class="row clearfix">
+							<span class="left">Friday</span>
+							<span class="right">9:30am - 6:00pm</span>
+						</li>
+						<li class="row clearfix">
+							<span class="left">Saturday</span>
+							<span class="right">9:30am - 6:00pm</span>
+						</li>
+						<li class="row clearfix">
+							<span class="left">Sunday</span>
+							<span class="right">close</span>
+						</li>
+					</ul>
+				</div>
+				<div class="brochure">
+					<p>Download our brochure</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="features">
+		<div class="wrapper clearfix">
+			<div class="features-menu one-fifth left">
+				<ul class="features-menu-container">
+					<li class="">Specialist tooling</li>
+					<li class="">Construction services</li>
+					<li class="">Kitchen interior design</li>
+					<li class="">Hardwood flooring</li>
+					<li class="">Architecture design</li>
+					<li class="">Concrete transport</li>
+				</ul>
+			</div>
+			<div class="features-main left">
+				<h4>What we do?</h4>
+				<img class="img-responsive" src="assets/underline.png" alt="">
+				<p>Landscape lighting or garden lighting refers to the use of outdoor illumination of private gardens & public landscapes, for the enhancement and purposes of </p>
+				<ul class="features-menu">
+					<li>
+						<p>Wall lights - surface mount</p>
+					</li>
+					<li>
+						<p>Three-mount lights - down lights</p>
+					</li>
+					<li>
+						<p>Deck lights - surface mount</p>
+					</li>
+				</ul>
+			</div>
+			<div class="choose-us left one-quarter">
+				<h4>Why choose us?</h4>
+				<img class="underline img-responsive" src="assets/underline.png" alt="">
+				<div class="choose-content">
+					<p>We plan renovations that are thoughtful and healthy, regardless of the status of the original structure.</p>
+					<img class="img-responsive" src="assets/underline.png" alt="">
+				</div>
+				<div class="choose-content">
+					<p>No excessive payment. We provide you reasonable pricing to do exactly what you need, without shocks.</p>
+					<img class="img-responsive" src="assets/underline.png" alt="">
+				</div>
+				<div class="choose-content">
+					<p>No matter the repairs, all our handyman technicians are our employees, fully licensed as well as insured.</p>
+					
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section class="wordpress1">
+		<div class="wrapper clearfix">
+			<div class="three-quarters left">
+				<p class="wordpress-large">Contractor is the best WordPress theme for construction</p>
+				<p>The theme is highly customizable with no coding knowledge required. It has various back-end options making adjustments a breeze</p>
+			</div>	
+			<div class="one-quarter left">
+				<a class="wp-purchase" href="#">Purchase now</a>
+			</div>
+		</div>
+	</section>
+	<section class="projects">
+		<div class="wrapper clearfix">
+			<h4>Our projects</h4>
+			<div class="project-box one-third left">
+				<img src="" alt="project1" class="img-responsive">
+				<p class="project-name"> 5 Modern Bedroom</p>
+				<p>Bedroom, Interior Design</p>
+			</div>
+			<div class="project-box one-third left">
+				<img src="" alt="project2" class="img-responsive">
+				<p class="project-name">Luxurious Interiors</p>
+				<p>Bedroom, Interior Design</p>
+			</div>
+			<div class="project-box one-third left">
+				<img src="" alt="project3" class="img-responsive">
+				<p class="project-name">Glass Home</p>
+				<p>Bedroom, Interior Design</p>
+			</div>
+		</div>
+	</section>
+	<section class="testimonials">
+		<div class="wrapper text-center">
+			<h4>What our customers say?</h4>
+			<p>Etizzle mah nizzle magna sed augue for sure accumsizzle. Aenizzle in break yo neck, yall. </p>
+			<div class="testimonial1">
+				<img src="assets/man-head.jpg" alt="Guys face" class="">
+				<p class="sub-image">Jonathan Ive</p>
+				<p class="sub-image2">- Apple Designer - </p>
+				<p class="testimonial-text">Duis ut crunk. Fusce gizzle ligula, fo shizzle mah nizzle fo rizzle, mah home g-dizzle sizzle amet, fringilla egizzle, sizzle gizzle, tortizzle. Maecenas a nisi. </p>
+			</div>
+			<img src="assets/icons.png" alt="" class="img-responsive">
+		</div>
+	</section>
+	<section class="wordpress2">
+		<div class="wrapper text-center">
+			<p>Do you love this theme? Don't forget to rate us 5 star</p>
+		</div>
+	</section>
+	<footer>
+		<div class="wrapper">
+			<div class="foot1 clearfix">
+				<div class="one-half left clearfix">
+					<div class="one-half left">
+						<h6>About Us</h6>
+						<p>Welcome to Contractor, specializing in house renovations. Through integrity & professionalism, we craft enduring value & relationship.</p>
+					</div>
+					<div class="one-half left">
+						<h6>Contact Us</h6>
+						<ul class="contact-menu">
+							<li class="row clearfix">
+								<div class="left contact-menu-sm">
+									<img src="assets/rectangle.png" alt="" class="img-responsive">
+								</div>
+								<div class="right contact-menu-lg">
+									<p>172 North 14th Street, Office 503</p>
+									<p>New York NY 10010</p>
+								</div>
+							</li>
+							<li class="row clearfix">
+								<div class="left contact-menu-sm">
+									<img src="assets/envelope.png" alt="" class="img-responsive">
+								</div>
+								<div class="right contact-menu-lg">
+									<p>contact@kingkongthemes.com</p>
+									<p>support@kingkongthemes.com</p>
+								</div>
+							</li>
+							<li class="row clearfix">
+								<div class="left contact-menu-sm">
+									<img src="assets/phone.png" alt="" class="img-responsive">
+								</div>
+								<div class="right contact-menu-lg">
+									<p>Mobile: +1 234-567-890</p>
+									<p>Hotline: +1 234-567-890</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="one-half left">
+					<div class="row">
+						<h6>Touch with us</h6>
+					</div>
+					<form>
+						<div class="row">
+							<div class="row clearfix">
+								<div class="one-half left">
+									<input type="text" placeholder="Your name">
+									<input type="email" placeholder="Your Email">
+								</div>
+								<div class="one-half left">
+									<textarea name="message" rows="5"></textarea>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<input type="button" value="Send message" class="right">
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="foot2 clearfix">
+				<div class="copyright-info left">
+					<p>&copy; Copyright 2015 - Construction by KingKongthemes. All rights reserved.</p>
+				</div>
+				<nav class="bottom-menu right">
+					<ul>
+						<li class="nav-border-right">Home</li>
+						<li class="nav-border-right">About Us</li>
+						<li class="nav-border-right">News</li>
+						<li class="nav-border-right">Services</li>
+						<li class="nav-border-right">Project</li>
+						<li class="nav-border-right">Store</li>
+						<li class="nav-border-right">Features</li>
+						<li class="bottom-menu-border">Contact Us</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</footer>
+	
+</body>
+</html>

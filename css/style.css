@@ -164,12 +164,22 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 /* End of setup styles */
-section {
-  padding: 75px 0;
+body {
+  font-family: 'Roboto Slab', serif;
 }
 
-div {
-  border: 1px solid black;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Dosis', sans-serif;
+  color: #454545;
+}
+
+section {
+  padding: 75px 0;
 }
 
 ul {
@@ -179,10 +189,6 @@ ul {
 
 ul li {
   list-style-type: none;
-}
-
-p {
-  font-size: 16px;
 }
 
 .wrapper {
@@ -200,52 +206,89 @@ p {
   float: right;
 }
 
-.row {
-  width: 100%;
+.nav1 {
+  background: #EBEBEB;
+  font-size: 12px;
+  color: #454545;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
 }
 
-.four-fifths {
-  width: 80%;
+.mini-menu-container {
+  padding: 16px 0;
 }
 
-.one-fifth {
-  width: 20%;
+.mini-menu-container li {
+  display: inline-block;
+  padding-left: 10px;
 }
 
-.three-tenths {
+@media (max-width: 780px) {
+  .location {
+    text-align: center;
+  }
+}
+
+.mini-menu {
+  text-align: right;
+}
+
+@media (max-width: 780px) {
+  .mini-menu {
+    text-align: center;
+  }
+}
+
+.logo {
   width: 30%;
 }
 
-.one-third {
-  width: 33%;
+.logo-img {
+  width: 20%;
+  position: relative;
+  top: 28px;
 }
 
-.one-half {
-  width: 50%;
+.logo-name {
+  width: 66%;
+  padding-left: 10px;
 }
 
-.one-quarter {
-  width: 25%;
+.logo-name h1 {
+  font-size: 34px;
 }
 
-.three-quarters {
-  width: 75%;
+.project-box {
+  padding: 0 10px;
 }
 
-.text-center {
-  text-align: center;
+#pagination {
+  clear: both;
+  width: 75px;
+  margin: 25px auto 0;
+  padding: 0;
 }
 
-.img-responsive {
-  width: 100%;
+#pagination li {
+  list-style: none;
+  float: left;
+  margin: 0 2px;
 }
 
-.about-main {
-  width: 45%;
+#pagination li a {
+  display: block;
+  width: 10px;
+  height: 10px;
+  text-indent: -10000px;
+  background: #999;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
-.features-main {
-  width: 55%;
+#pagination li a.active {
+  background: #668CFF;
 }
 
 .contact-menu-sm {
