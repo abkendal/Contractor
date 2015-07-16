@@ -1,3 +1,19 @@
+@media (max-width: 768px) {
+  .wrapper {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  .location {
+    text-align: center;
+  }
+  .mini-menu {
+    text-align: center;
+  }
+  .logo {
+    text-align: center;
+  }
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block;
 }
@@ -192,7 +208,7 @@ ul li {
 }
 
 .wrapper {
-  max-width: 1280px;
+  max-width: 1980px;
   margin: 0 auto;
   padding-left: 10%;
   padding-right: 10%;
@@ -223,28 +239,11 @@ ul li {
   padding-left: 10px;
 }
 
-@media (max-width: 780px) {
-  .location {
-    text-align: center;
-  }
-}
-
 .mini-menu {
   text-align: right;
 }
 
-@media (max-width: 780px) {
-  .mini-menu {
-    text-align: center;
-  }
-}
-
-.logo {
-  width: 30%;
-}
-
-.logo-img {
-  width: 20%;
+.logo-img img {
   position: relative;
   top: 28px;
 }
@@ -255,7 +254,73 @@ ul li {
 }
 
 .logo-name h1 {
+  margin: 30px 0;
   font-size: 34px;
+}
+
+.nav-doodads {
+  margin: 30px 0;
+}
+
+.nav-doodads input {
+  width: 100%;
+}
+
+.nav-doodads p {
+  margin: 0;
+}
+
+.nav3 {
+  background: #030303;
+  color: #686868;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+  min-height: 125px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.nav3 ul {
+  padding: 0;
+  margin: 0;
+}
+
+.nav3 li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.nav-border-right::after {
+  content: " ";
+  display: inline-block;
+  width: 1px;
+  height: 25px;
+  background: #686868;
+  margin: 0 10px 0 20px;
+  transform: skewx(-30deg);
+  position: relative;
+  top: 5px;
+}
+
+.social-buttons {
+  background: #191919;
+  text-align: center;
+  padding: 15px 5px;
+  transform: skewx(-30deg);
+}
+
+.social-buttons i {
+  padding: 10px;
+  width: 33px;
+  background: #3E3E3E;
+  border-radius: 50%;
+  transform: skewx(30deg);
+}
+
+.serious-guy img {
+  max-width: 300px;
 }
 
 .project-box {
