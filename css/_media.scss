@@ -1,4 +1,17 @@
-@media (max-width: 480px) {
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.nav2 {
+		height: 100px;
+	}
+	.logo-img img{
+		width: 40%;
+		top: 20px;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
 
 }
 
@@ -16,18 +29,17 @@
 	.logo {
 		text-align: center;
 	}
-}
-
-@media (max-width: 992px) {
-	.logo-img img{
-		top: 0px;
-		// display: block;
-  //   	margin-left: auto;
-  //   	margin-right: auto;
+	.jumbo-text {
+		top: 23vh;
 	}
-
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 480px) {
+	.logo-img img{ 
+		top: 25px;
+	}
+	.jumbotron {
+		height: 65vh;
+	}
 
 }
