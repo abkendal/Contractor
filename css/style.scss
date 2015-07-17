@@ -1,6 +1,8 @@
 $lightgrey: #adadad;
 $gold: #FFC554;
 
+@import 'mixins';
+
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
 input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
 
@@ -35,6 +37,10 @@ h4,
 h5,
 h6 {
 	font-family: 'Dosis', sans-serif;
+}
+h4 {
+	text-transform: uppercase;
+  	font-weight: 500;
 }
 
 section {
@@ -255,9 +261,7 @@ image:hover #truck {
 .features {
 	background: #F1F1F1;
 	p {
-		color: $lightgrey;
-		font-size: 14px;
-		font-weight: lighter;
+		@include smallgreytext;
 	}
 }
 .features h4 {
@@ -340,8 +344,7 @@ image:hover #truck {
   		font-weight: 500;
 	}
 	p {
-		color: $lightgrey;
-		font-size: 14px;
+		@include smallgreytext;
 	}
 }
 .project-box {
@@ -354,35 +357,31 @@ p.project-name{
 }
 
 // ------------ Testimonials Styles  ------------ 
-
-#pagination {
-    clear:both;
-    width:75px;
-    margin:25px auto 0;
-    padding:0;
+.sub-header {
+	@include smallgreytext;
+}
+.testimonial1 {
+	margin: 50px 0 0 0;
+}
+.sub-image {
+	font-family: 'Dosis', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+}
+.sub-image2 {
+	font-size: 14px;
+	// font-weight: lighter;
+}
+.testimonial-text {
+	color: $lightgrey;
+	font-size: 14px;
+	width: 65%;
+	margin: 0 auto;
+}
+.icon-group {
+	margin-top: 30px;
 }
 
-#pagination li {
-    list-style:none;
-    float:left;
-    margin:0 2px;
-}
-
-#pagination li a {
-    display:block;
-    width:10px;
-    height:10px;
-    text-indent:-10000px;
-    background: #999;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    box-shadow: inset 1px 1px 1px rgba(0, 0 ,0, 0.4);
-}
-
-#pagination li a.active {
-    background: #668CFF;
-}
 // ------------ Icons Styles  ------------ 
 
 // ------------ Wordpress2 Styles  ------------ 
@@ -394,6 +393,5 @@ p.project-name{
 .contact-menu-lg {
 	width: 90%;
 }
-
 
 @import 'media';

@@ -184,6 +184,11 @@ h6 {
   font-family: 'Dosis', sans-serif;
 }
 
+h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
 section {
   padding: 45px 0;
 }
@@ -512,6 +517,7 @@ image:hover #truck {
 .projects p {
   color: #adadad;
   font-size: 14px;
+  font-weight: lighter;
 }
 
 .project-box {
@@ -524,33 +530,35 @@ p.project-name {
   font-family: 'Dosis', sans-serif;
 }
 
-#pagination {
-  clear: both;
-  width: 75px;
-  margin: 25px auto 0;
-  padding: 0;
+.sub-header {
+  color: #adadad;
+  font-size: 14px;
+  font-weight: lighter;
 }
 
-#pagination li {
-  list-style: none;
-  float: left;
-  margin: 0 2px;
+.testimonial1 {
+  margin: 50px 0 0 0;
 }
 
-#pagination li a {
-  display: block;
-  width: 10px;
-  height: 10px;
-  text-indent: -10000px;
-  background: #999;
-  border-radius: 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.4);
+.sub-image {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
 }
 
-#pagination li a.active {
-  background: #668CFF;
+.sub-image2 {
+  font-size: 14px;
+}
+
+.testimonial-text {
+  color: #adadad;
+  font-size: 14px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.icon-group {
+  margin-top: 30px;
 }
 
 .contact-menu-sm {
