@@ -217,6 +217,19 @@ ul li {
   float: right;
 }
 
+/* gallery height */
+.gallery {
+  height: 300px;
+}
+
+.gallery-cell {
+  width: 100%;
+  /* full width */
+  height: 160px;
+  /* height of gallery */
+  margin-right: 10px;
+}
+
 .nav1 {
   background: #EBEBEB;
   font-size: 12px;
@@ -534,10 +547,6 @@ p.project-name {
   color: #adadad;
   font-size: 14px;
   font-weight: lighter;
-}
-
-.testimonial1 {
-  margin: 50px 0 0 0;
 }
 
 .sub-image {

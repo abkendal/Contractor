@@ -69,6 +69,15 @@ ul li {
 .right {
 	float: right;
 }
+/* gallery height */
+.gallery {
+  height: 300px;
+}
+.gallery-cell {
+  width: 100%; /* full width */
+  height: 160px; /* height of gallery */
+  margin-right: 10px;
+}
 
 // ------------ Nav Styles  ------------ 
 .nav1 {
@@ -360,9 +369,11 @@ p.project-name{
 .sub-header {
 	@include smallgreytext;
 }
-.testimonial1 {
-	margin: 50px 0 0 0;
+.testimonial {
+	// margin: 50px 0 0 0;
+
 }
+
 .sub-image {
 	font-family: 'Dosis', sans-serif;
 	font-weight: 500;
@@ -381,10 +392,9 @@ p.project-name{
 .icon-group {
 	margin-top: 30px;
 }
-
-// ------------ Icons Styles  ------------ 
-
 // ------------ Wordpress2 Styles  ------------ 
+
+
 
 // ------------ Footer Styles  ------------ 
 .contact-menu-sm {
