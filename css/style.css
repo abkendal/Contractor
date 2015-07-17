@@ -339,7 +339,7 @@ ul li {
 }
 
 .jumbotron-buttons:hover {
-  background: #FBB121;
+  background: #FFC554;
 }
 
 .jumbotron-buttons:hover p {
@@ -382,7 +382,7 @@ image:hover #truck {
 }
 
 .about p, li {
-  color: #ADADAD;
+  color: #adadad;
   font-weight: lighter;
   font-size: 12px;
   line-height: 2;
@@ -425,9 +425,82 @@ image:hover #truck {
   background: #F1F1F1;
 }
 
+.features p {
+  color: #adadad;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
 .features h4 {
   text-transform: uppercase;
-  font-weight: lighter;
+  font-weight: 500;
+}
+
+.features-menu-container {
+  margin-top: 35px;
+}
+
+.features-menu-container li {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-family: 'Dosis', sans-serif;
+  color: #4E4E4E;
+  border-right: 2px solid #adadad;
+}
+
+.features-menu-container li:hover {
+  color: #FBB000;
+  border-right: 2px solid #FBB000;
+}
+
+.choose-us {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.choose-us i {
+  margin-right: 8px;
+  color: #8FC027;
+}
+
+.thin-underline {
+  height: 2px;
+}
+
+.wordpress1 {
+  position: relative;
+}
+
+.wordpress1-bg {
+  background-image: url(../assets/bg-pattern-cool.jpg);
+}
+
+.wordpress-text {
+  padding: 20px 0;
+}
+
+.wordpress1-large {
+  color: white;
+  font-size: 16px;
+}
+
+.wordpress1-small {
+  color: #adadad;
+}
+
+.wp-purchase {
+  text-decoration: none;
+  margin: 45px 0;
+  padding: 20px;
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+  background: #FFC554;
+  border-radius: 5px;
+  color: black;
 }
 
 .project-box {
@@ -500,6 +573,9 @@ image:hover #truck {
   }
   .jumbo-text {
     top: 23vh;
+  }
+  .wp-purchase {
+    margin: 15px 0;
   }
 }
 
