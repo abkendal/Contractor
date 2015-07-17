@@ -393,7 +393,15 @@ p.project-name{
 	margin-top: 30px;
 }
 // ------------ Wordpress2 Styles  ------------ 
-
+.wordpress2 {
+	background: url(../assets/bg-call-to-action.png), linear-gradient(to right, $gold, #F0C069, $gold);
+	p {
+		font-family: 'Dosis', sans-serif;
+		color: white;
+		text-transform: uppercase;
+		font-size: 18px;
+	}
+}
 
 
 // ------------ Footer Styles  ------------ 

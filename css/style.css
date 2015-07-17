@@ -570,6 +570,17 @@ p.project-name {
   margin-top: 30px;
 }
 
+.wordpress2 {
+  background: url(../assets/bg-call-to-action.png), linear-gradient(to right, #FFC554, #F0C069, #FFC554);
+}
+
+.wordpress2 p {
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
 .contact-menu-sm {
   width: 10%;
 }
@@ -595,6 +606,9 @@ p.project-name {
   .wrapper {
     padding-left: 4%;
     padding-right: 4%;
+  }
+  .row {
+    margin: 0;
   }
   .location {
     text-align: center;
