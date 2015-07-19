@@ -3,16 +3,18 @@
 }
 @media (max-width: 992px) {
 	.nav2 {
-		height: 100px;
+		height: 120px;
 	}
 	.logo-img img{
-		width: 40%;
+		width: 300px;
 		top: 20px;
 		display: block;
     	margin-left: auto;
     	margin-right: auto;
 	}
-
+	.foot-contact li p {
+		font-size: 10px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -41,6 +43,16 @@
 	.projects h4 {
 		text-align:center;
 	}
+	.touch {
+		margin:0;
+	}
+	.foot-contact li p {
+		font-size: 12px;
+	}
+
+	// Slide in menu styles 
+
+
 }
 
 @media (max-width: 480px) {
@@ -50,5 +62,8 @@
 	.jumbotron {
 		height: 65vh;
 	}
-
+	.features-menu-container li {
+		font-size: 12px;
+		padding-right: 10px;
+	}
 }
