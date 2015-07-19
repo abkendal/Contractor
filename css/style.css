@@ -816,6 +816,38 @@ footer p {
   font-size: 96px;
 }
 
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.lightbox img {
+  /** Pad the lightbox image */
+  max-width: 50%;
+  max-height: 100%;
+  margin-top: 10%;
+}
+
+.lightbox-link {
+  text-decoration: none;
+}
+
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+  /** Unhide lightbox **/
+  display: block;
+}
+
 @media (max-width: 992px) {
   .nav2 {
     height: 120px;
