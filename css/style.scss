@@ -107,7 +107,19 @@ a {
 .mini-menu {
 	text-align: right;
 }
-
+.search-bar {
+	font-size: 12px;
+	padding: 8px 5px;
+	border: 1px dashed $lightgrey;
+}
+.check-out {
+	padding: 5px 3px;
+	border: 1px dashed $lightgrey;
+}
+.check-out p:before {
+	content: url(../assets/shoppingbag.png);
+	padding-right: 10px;
+}
 
 .logo-img img {
 	position: relative;
@@ -124,12 +136,20 @@ a {
 }
 .nav-doodads {
 	margin: 30px 0;
+	position:relative;
+	.fa-search {
+		position:absolute;
+		top:8px;
+		right: 20px;
+		color: $lightgrey;
+	}
 }
 .nav-doodads input {
 	width: 100%;
 }
 .nav-doodads p {
 	margin: 0;
+	color:$lightgrey;
 }
 .nav3 {
 	background: #030303;
@@ -412,6 +432,13 @@ image:hover #truck {
     background: $gold;
     border-radius: 5px;
     color: black;
+    border: 2px solid black;;
+    &:hover {
+    	background: black;
+    	color: $lightgrey;
+    	border: 2px solid $gold;
+    	border-radius: 3px;
+    }
 }
 // ------------ Projects Styles  ------------ 
 .projects {

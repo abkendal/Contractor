@@ -261,6 +261,22 @@ a:hover {
   text-align: right;
 }
 
+.search-bar {
+  font-size: 12px;
+  padding: 8px 5px;
+  border: 1px dashed #adadad;
+}
+
+.check-out {
+  padding: 5px 3px;
+  border: 1px dashed #adadad;
+}
+
+.check-out p:before {
+  content: url(../assets/shoppingbag.png);
+  padding-right: 10px;
+}
+
 .logo-img img {
   position: relative;
   top: 28px;
@@ -278,6 +294,14 @@ a:hover {
 
 .nav-doodads {
   margin: 30px 0;
+  position: relative;
+}
+
+.nav-doodads .fa-search {
+  position: absolute;
+  top: 8px;
+  right: 20px;
+  color: #adadad;
 }
 
 .nav-doodads input {
@@ -286,6 +310,7 @@ a:hover {
 
 .nav-doodads p {
   margin: 0;
+  color: #adadad;
 }
 
 .nav3 {
@@ -595,6 +620,14 @@ image:hover #truck {
   background: #FFC554;
   border-radius: 5px;
   color: black;
+  border: 2px solid black;
+}
+
+.wp-purchase:hover {
+  background: black;
+  color: #adadad;
+  border: 2px solid #FFC554;
+  border-radius: 3px;
 }
 
 .projects h4 {
