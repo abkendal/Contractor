@@ -732,6 +732,11 @@ p.project-name {
   font-size: 14px;
 }
 
+.testimonial-img {
+  width: 120px;
+  border-radius: 50%;
+}
+
 .testimonial-text {
   color: #adadad;
   font-size: 14px;
