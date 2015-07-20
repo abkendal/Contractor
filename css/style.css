@@ -309,6 +309,7 @@ a:hover {
 }
 
 .nav-doodads p {
+  font-size: 13px;
   margin: 0;
   color: #adadad;
 }
