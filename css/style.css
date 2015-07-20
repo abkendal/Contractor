@@ -202,6 +202,16 @@ ul li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: #adadad;
+  transition: all 0.5s ease;
+}
+
+a:hover {
+  color: #FFC554;
+}
+
 .wrapper {
   max-width: 1980px;
   margin: 0 auto;
@@ -312,11 +322,20 @@ ul li {
   top: 5px;
 }
 
+.menu-container {
+  margin-top: 13px;
+}
+
 .social-buttons {
   background: #191919;
   text-align: center;
   padding: 15px 5px;
   transform: skewx(-30deg);
+  transition: all 1s ease;
+}
+
+.social-buttons i:hover {
+  background: #FFC554;
 }
 
 .social-buttons i {
@@ -400,6 +419,11 @@ header {
 .jumbo-text {
   position: relative;
   top: 30vh;
+}
+
+.jumbo-text h2:before {
+  content: url(../assets/bars.png);
+  padding-right: 15px;
 }
 
 .jumbotron-buttons {
@@ -609,12 +633,14 @@ p.project-name {
   top: -300px;
   right: 0;
   left: 0;
+  display: none;
 }
 
 #box1:hover #overlay1 {
-  opacity: 1;
+  opacity: .95;
   top: 0;
   bottom: 0%;
+  display: inline-block;
 }
 
 #plus1 {
@@ -639,12 +665,14 @@ p.project-name {
   top: -300px;
   right: 0;
   left: 0;
+  display: none;
 }
 
 #box2:hover #overlay2 {
-  opacity: 1;
+  opacity: .95;
   top: 0;
   bottom: 0%;
+  display: inline-block;
 }
 
 #plus2 {
@@ -669,12 +697,14 @@ p.project-name {
   top: -300px;
   right: 0;
   left: 0;
+  display: none;
 }
 
 #box3:hover #overlay3 {
-  opacity: 1;
+  opacity: .95;
   top: 0;
   bottom: 0%;
+  display: inline-block;
 }
 
 #plus3 {
@@ -828,6 +858,11 @@ footer p {
   border-radius: 3px;
   font-size: 12px;
   padding: 10px;
+}
+
+.button-input:hover {
+  background: #FFC554;
+  color: black;
 }
 
 .touch {

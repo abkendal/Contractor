@@ -56,6 +56,15 @@ ul {
 ul li {
 	list-style-type: none;
 }
+a {
+	text-decoration: none;
+	color: $lightgrey;
+	transition: all 0.5s ease;
+	&:hover {
+		color: $gold;
+		// border-bottom: 2px solid $gold;
+	}
+}
 .wrapper {
 	max-width: 1980px;
 	margin: 0 auto;
@@ -155,12 +164,19 @@ ul li {
 	position:relative;
 	top: 5px;
 }
+.menu-container {
+	margin-top: 13px;
+}
 .social-buttons {
 	background: #191919;
 	// background: red;
 	text-align: center;
 	padding: 15px 5px;
 	transform: skewx(-30deg);
+	transition: all 1s ease;
+	i:hover {
+		background: $gold;
+	}
 }
 .social-buttons i {
 	padding: 10px;
@@ -236,6 +252,10 @@ header
 .jumbo-text {
 	position: relative;
 	top: 30vh;
+	h2:before {
+		content: url(../assets/bars.png);
+		padding-right: 15px;
+	}
 }
 .jumbotron-buttons {
 	height: 120px;
@@ -594,6 +614,10 @@ footer p {
 	border-radius: 3px;
 	font-size: 12px;
 	padding: 10px;
+	&:hover {
+		background: $gold;
+		color: black;
+	}
 }
 .touch {
 	padding-left: 10px;
