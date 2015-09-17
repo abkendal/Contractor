@@ -661,7 +661,7 @@ p.project-name {
 #overlay1 {
   background: #FFC554;
   text-align: center;
-  padding: 10% 0 66px 0;
+  padding: 15% 0 66px 0;
   opacity: 0;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
@@ -693,7 +693,7 @@ p.project-name {
 #overlay2 {
   background: #FFC554;
   text-align: center;
-  padding: 10% 0 66px 0;
+  padding: 15% 0 66px 0;
   opacity: 0;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
@@ -725,7 +725,7 @@ p.project-name {
 #overlay3 {
   background: #FFC554;
   text-align: center;
-  padding: 10% 0 66px 0;
+  padding: 15% 0 66px 0;
   opacity: 0;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
