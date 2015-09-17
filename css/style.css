@@ -204,7 +204,7 @@ ul li {
 
 a {
   text-decoration: none;
-  color: #333333;
+  color: #DEDEDE;
   transition: all 0.5s ease;
 }
 
@@ -212,7 +212,7 @@ a:hover {
   color: #FFC554;
 }
 
-label {
+.hiddenLabel {
   display: none;
 }
 
@@ -505,10 +505,17 @@ image:hover #truck {
 }
 
 .about p, li {
-  color: #333333;
   font-weight: lighter;
   font-size: 12px;
   line-height: 2;
+}
+
+.about p {
+  color: #333333;
+}
+
+.about li {
+  color: white;
 }
 
 .about h4 {

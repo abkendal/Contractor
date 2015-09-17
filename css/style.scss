@@ -58,14 +58,14 @@ ul li {
 }
 a {
 	text-decoration: none;
-	color: $lightgrey;
+	color: #DEDEDE;
 	transition: all 0.5s ease;
 	&:hover {
 		color: $gold;
 		// border-bottom: 2px solid $gold;
 	}
 }
-label {
+.hiddenLabel {
 	display: none;
 }
 .wrapper {
@@ -321,10 +321,15 @@ image:hover #truck {
 	max-width: 300px;
 }
 .about p,li{
-	color: $lightgrey;
 	font-weight: lighter;
 	font-size: 12px;
 	line-height: 2;
+}
+.about p {
+	color: $lightgrey;
+}
+.about li {
+ color: white;
 }
 .about h4 {
 	text-transform: uppercase;
