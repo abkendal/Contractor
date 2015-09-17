@@ -1,4 +1,4 @@
-$lightgrey: #adadad;
+$lightgrey: #333333;
 $gold: #FFC554;
 
 @import 'mixins';
@@ -64,6 +64,9 @@ a {
 		color: $gold;
 		// border-bottom: 2px solid $gold;
 	}
+}
+label {
+	display: none;
 }
 .wrapper {
 	max-width: 1980px;

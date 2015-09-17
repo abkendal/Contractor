@@ -204,12 +204,16 @@ ul li {
 
 a {
   text-decoration: none;
-  color: #adadad;
+  color: #333333;
   transition: all 0.5s ease;
 }
 
 a:hover {
   color: #FFC554;
+}
+
+label {
+  display: none;
 }
 
 .wrapper {
@@ -264,12 +268,12 @@ a:hover {
 .search-bar {
   font-size: 12px;
   padding: 8px 5px;
-  border: 1px dashed #adadad;
+  border: 1px dashed #333333;
 }
 
 .check-out {
   padding: 5px 3px;
-  border: 1px dashed #adadad;
+  border: 1px dashed #333333;
 }
 
 .check-out p:before {
@@ -301,7 +305,7 @@ a:hover {
   position: absolute;
   top: 8px;
   right: 20px;
-  color: #adadad;
+  color: #333333;
 }
 
 .nav-doodads input {
@@ -311,7 +315,7 @@ a:hover {
 .nav-doodads p {
   font-size: 13px;
   margin: 0;
-  color: #adadad;
+  color: #333333;
 }
 
 .nav3 {
@@ -501,7 +505,7 @@ image:hover #truck {
 }
 
 .about p, li {
-  color: #adadad;
+  color: #333333;
   font-weight: lighter;
   font-size: 12px;
   line-height: 2;
@@ -545,7 +549,7 @@ image:hover #truck {
 }
 
 .features p {
-  color: #adadad;
+  color: #333333;
   font-size: 14px;
   font-weight: lighter;
 }
@@ -566,7 +570,7 @@ image:hover #truck {
   text-transform: uppercase;
   font-family: 'Dosis', sans-serif;
   color: #4E4E4E;
-  border-right: 2px solid #adadad;
+  border-right: 2px solid #333333;
 }
 
 .features-menu-container li:hover {
@@ -608,7 +612,7 @@ image:hover #truck {
 }
 
 .wordpress1-small {
-  color: #adadad;
+  color: #333333;
 }
 
 .wp-purchase {
@@ -626,7 +630,7 @@ image:hover #truck {
 
 .wp-purchase:hover {
   background: black;
-  color: #adadad;
+  color: #333333;
   border: 2px solid #FFC554;
   border-radius: 3px;
 }
@@ -637,7 +641,7 @@ image:hover #truck {
 }
 
 .projects p {
-  color: #adadad;
+  color: #333333;
   font-size: 14px;
   font-weight: lighter;
 }
@@ -781,7 +785,7 @@ p.project-name {
 }
 
 .sub-header {
-  color: #adadad;
+  color: #333333;
   font-size: 14px;
   font-weight: lighter;
 }
@@ -802,7 +806,7 @@ p.project-name {
 }
 
 .testimonial-text {
-  color: #adadad;
+  color: #333333;
   font-size: 14px;
   width: 65%;
   margin: 0 auto;
@@ -839,7 +843,7 @@ p.project-name {
 }
 
 footer p {
-  color: #adadad;
+  color: #333333;
   font-weight: lighter;
   font-size: 12px;
   line-height: 2;
@@ -857,7 +861,7 @@ footer p {
 .contact-menu-lg {
   width: 85%;
   padding-left: 5px;
-  border-left: 2px solid #adadad;
+  border-left: 2px solid #333333;
 }
 
 .contact-menu-lg p {
@@ -884,7 +888,7 @@ footer p {
 
 .button-input {
   margin-top: 20px;
-  color: #adadad;
+  color: #333333;
   border-style: none;
   border: 2px solid #FFC554;
   display: block;
@@ -909,7 +913,7 @@ footer p {
 
 .foot2 p {
   font-size: 12px;
-  color: #adadad;
+  color: #333333;
 }
 
 .foot2 li {
