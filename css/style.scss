@@ -1,3 +1,4 @@
+$lightergrey: #B9B6B6;
 $lightgrey: #333333;
 $gold: #FFC554;
 
@@ -217,7 +218,6 @@ input[type=checkbox] {
 	height:100vh;
 	background: rgba(0,0,0,0.7);
 	width: 300px;
-	color: white;
 	position: absolute;
 	top:0;
 	left:-300px;
@@ -231,6 +231,7 @@ input[type=checkbox] {
 	}
 	li {
 		padding-left: 10px;
+		color: white;
 	}
 }
 #nav-check:checked + .navigation{
@@ -321,15 +322,10 @@ image:hover #truck {
 	max-width: 300px;
 }
 .about p,li{
+	color: $lightgrey;
 	font-weight: lighter;
 	font-size: 12px;
 	line-height: 2;
-}
-.about p {
-	color: $lightgrey;
-}
-.about li {
- color: white;
 }
 .about h4 {
 	text-transform: uppercase;
@@ -429,7 +425,7 @@ image:hover #truck {
 	font-size: 16px;
 }
 .wordpress1-small {
-	color: $lightgrey;
+	color: #909090;
 }
 .wp-purchase {
 	text-decoration: none;
@@ -595,14 +591,14 @@ p.project-name{
 	}
 	h6 {
 		font-size: 16px;
-		color: white;
+		color: $lightergrey;
 		text-transform: uppercase;
 		letter-spacing: 2px;
 	}
 
 }
 footer p {
-	color: $lightgrey;
+	color: $lightergrey;
 	font-weight: lighter;
 	font-size: 12px;
 	line-height: 2;
@@ -642,7 +638,7 @@ footer p {
 }
 .button-input {
 	margin-top: 20px;
-	color: $lightgrey;
+	color: $lightergrey;
 	border-style: none;
 	border: 2px solid $gold;
 	display: block;
@@ -662,7 +658,7 @@ footer p {
 	background-color: #1B1B1B;
 	p {
 		font-size: 12px;
-		color: $lightgrey;
+		color: $lightergrey;
 	}
 	li {
 		display: inline-block;
