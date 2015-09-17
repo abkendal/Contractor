@@ -7,7 +7,8 @@
 @mixin overlay {
 	background:$gold;
 	text-align:center;
-	padding:45px 0 66px 0;
+	padding:10% 0 66px 0;
+	// vertical-align: middle;
 	opacity:0;
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -17,6 +18,7 @@
 	// bottom:0;
 	left:0;
 	display:none;
+
 }
 @mixin hover {
 	opacity:.95;

@@ -506,14 +506,12 @@ image:hover #truck {
 
 .about p, li {
   color: #333333;
-  font-weight: lighter;
   font-size: 12px;
   line-height: 2;
 }
 
 .about h4 {
   text-transform: uppercase;
-  font-weight: lighter;
 }
 
 .hours-box {
@@ -663,7 +661,7 @@ p.project-name {
 #overlay1 {
   background: #FFC554;
   text-align: center;
-  padding: 45px 0 66px 0;
+  padding: 10% 0 66px 0;
   opacity: 0;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
@@ -695,7 +693,7 @@ p.project-name {
 #overlay2 {
   background: #FFC554;
   text-align: center;
-  padding: 45px 0 66px 0;
+  padding: 10% 0 66px 0;
   opacity: 0;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
@@ -727,7 +725,7 @@ p.project-name {
 #overlay3 {
   background: #FFC554;
   text-align: center;
-  padding: 45px 0 66px 0;
+  padding: 10% 0 66px 0;
   opacity: 0;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
@@ -844,7 +842,6 @@ p.project-name {
 
 footer p {
   color: #B9B6B6;
-  font-weight: lighter;
   font-size: 12px;
   line-height: 2;
 }
@@ -968,11 +965,20 @@ footer p {
   .projects h4 {
     text-align: center;
   }
+  #overlay1, #overlay2, #overlay3 {
+    padding-top: 20%;
+  }
   .touch {
     margin: 0;
   }
   .foot-contact li p {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 575px) {
+  #overlay1, #overlay2, #overlay3 {
+    padding-top: 16%;
   }
 }
 
@@ -986,5 +992,8 @@ footer p {
   .features-menu-container li {
     font-size: 12px;
     padding-right: 10px;
+  }
+  #overlay1, #overlay2, #overlay3 {
+    padding-top: 12%;
   }
 }

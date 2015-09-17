@@ -323,13 +323,13 @@ image:hover #truck {
 }
 .about p,li{
 	color: $lightgrey;
-	font-weight: lighter;
+	
 	font-size: 12px;
 	line-height: 2;
 }
 .about h4 {
 	text-transform: uppercase;
-	font-weight: lighter;
+	
 }
 .hours-box {
 	padding: 15px 15px;
@@ -556,7 +556,7 @@ p.project-name{
 }
 .sub-image2 {
 	font-size: 14px;
-	// font-weight: lighter;
+	// 
 }
 .testimonial-img {
 	width: 120px;
@@ -599,7 +599,6 @@ p.project-name{
 }
 footer p {
 	color: $lightergrey;
-	font-weight: lighter;
 	font-size: 12px;
 	line-height: 2;
 }

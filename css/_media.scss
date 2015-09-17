@@ -43,6 +43,9 @@
 	.projects h4 {
 		text-align:center;
 	}
+	#overlay1, #overlay2, #overlay3 {
+		padding-top: 20%;
+	}
 	.touch {
 		margin:0;
 	}
@@ -54,7 +57,11 @@
 
 
 }
-
+@media (max-width: 575px) {
+	#overlay1, #overlay2, #overlay3 {
+		padding-top: 16%;
+	}
+}
 @media (max-width: 480px) {
 	.logo-img img{ 
 		top: 25px;
@@ -65,5 +72,13 @@
 	.features-menu-container li {
 		font-size: 12px;
 		padding-right: 10px;
+	}
+	#overlay1, #overlay2, #overlay3 {
+		padding-top: 12%;
+	}
+}
+@media(max-width: 350px){
+	#plus1, #plus2, #plus3 {
+		// font-size: 50px;
 	}
 }
