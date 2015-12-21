@@ -399,6 +399,7 @@ input[type=checkbox] {
 }
 
 .navigation li {
+  font-size: 24px;
   padding-left: 10px;
   color: white;
 }
@@ -968,6 +969,9 @@ footer p {
   .touch {
     margin: 0;
   }
+  .foot1 {
+    background: #222222;
+  }
   .foot-contact li p {
     font-size: 12px;
   }
@@ -980,11 +984,18 @@ footer p {
 }
 
 @media (max-width: 480px) {
+  .navigation li {
+    font-size: 30px;
+  }
   .logo-img img {
     top: 25px;
+    width: 260px;
   }
   .jumbotron {
     height: 65vh;
+  }
+  .jumbo-text {
+    top: 15vh;
   }
   .features-menu-container li {
     font-size: 12px;
@@ -992,5 +1003,18 @@ footer p {
   }
   #overlay1, #overlay2, #overlay3 {
     padding-top: 12%;
+  }
+  .features p {
+    font-size: 12px;
+  }
+  .choose-us {
+    margin-top: 30px;
+  }
+  .lightbox img {
+    margin-top: 45%;
+    max-width: 80%;
+  }
+  .foot1 {
+    background: #222222;
   }
 }
