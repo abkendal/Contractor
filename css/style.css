@@ -408,6 +408,10 @@ input[type=checkbox] {
   left: 0;
 }
 
+.slide-menu-item:hover {
+  color: #FFC554;
+}
+
 nav,
 header {
   left: 0;
@@ -430,7 +434,6 @@ header {
 
 .jumbotron {
   margin-top: -75px;
-  background: url(../assets/jumbotron1.jpg) no-repeat;
   background-size: cover;
   height: 60vh;
   color: white;
@@ -439,6 +442,24 @@ header {
 
 .jumbotron.active {
   display: block;
+}
+
+.jumbo1 {
+  background: url(../assets/jumbotron1.jpg) no-repeat;
+}
+
+.jumbo2 {
+  background: url(../assets/jumbotron2.jpg) no-repeat;
+}
+
+.jumbo3 {
+  background: url(../assets/jumbotron3.jpg) no-repeat;
+}
+
+.jumbo4 {
+  background: url(../assets/jumbotron4.jpg) no-repeat;
+  background-position: 50% 98%;
+  background-size: cover;
 }
 
 .jumbotron h2 {
