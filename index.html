@@ -105,18 +105,44 @@
 	</nav>
 
 	<header class="text-center">
-		<div class="wrapper">
-			<div class="jumbotron">
+		<div class="wrapper jumbo-container";>
+			<div class="jumbotron jumbo1 active" data-index="1">
 				<div class="wrapper container jumbo-text">
 					<h2>Construction and Bidding</h2>
 					<h3>Good buildings come from good people, and all problems are solved by good designs</h3>
 				</div>
 			</div>
+			<div class="jumbotron jumbo2" data-index="2">
+				<div class="wrapper container jumbo-text">
+					<h2>Concrete Transport</h2>
+					<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</h3>
+				</div>
+			</div>
+			<div class="jumbotron jumbo3" data-index="3">
+				<div class="wrapper container jumbo-text">
+					<h2>Specialist Tooling</h2>
+					<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</h3>
+				</div>
+			</div>
+			<div class="jumbotron jumbo4"  data-index="4">
+				<div class="wrapper container jumbo-text">
+					<h2>Kitchen Interior Design</h2>
+					<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h3>
+				</div>
+			</div>
+			<div class="jumbo-controls">
+				<a href="#" class="control-left">
+					<i class="fa fa-chevron-left" aria-hidden="true"></i>
+				</a>
+				<a href="#" class="control-right">
+					<i class="fa fa-chevron-right" aria-hidden="true"></i>
+				</a>
+			</div>
 		</div>
 		<div class="wrapper">
 			<div class="clearfix">
 				<a href="#" aria-label="Link to construction services">
-					<div class="jumbotron-buttons jumbotron-button-border col-md-3 col-sm-6 col-xs-12">
+					<div class="jumbotron-buttons jumbotron-button-border col-md-3 col-sm-6 col-xs-12 active" data-jumbo="1">
 						<div class="jumbotron-button-content">
 							<div class="icon">
 								<i class="fa fa-cogs"></i>
@@ -126,17 +152,17 @@
 					</div>
 				</a>
 				<a href="#" aria-label="Link to concrete transport">
-					<div class="jumbotron-buttons jumbotron-button-border col-md-3 col-sm-6 col-xs-12">
+					<div class="jumbotron-buttons jumbotron-button-border col-md-3 col-sm-6 col-xs-12" data-jumbo="2">
 						<div class="jumbotron-button-content">
 							<div class="icon">
 								<i class="fa fa-truck"></i>
 							</div>
-							<p>Concrete transport</p>
+							<p>Concrete Transport</p>
 						</div>
 					</div>
 				</a>
 				<a href="#" aria-label="Link to specialist tooling">
-					<div class="jumbotron-buttons jumbotron-button-border col-md-3 col-sm-6 col-xs-12">
+					<div class="jumbotron-buttons jumbotron-button-border col-md-3 col-sm-6 col-xs-12" data-jumbo="3" >
 						<div class="jumbotron-button-content">
 							<div class="icon">
 								<i class="fa fa-gavel"></i>
@@ -146,13 +172,12 @@
 					</div>
 				</a>
 				<a href="#" aria-label="Link to kitchen interior design">
-
-					<div class="jumbotron-buttons col-md-3 col-sm-6 col-xs-12">
+					<div class="jumbotron-buttons col-md-3 col-sm-6 col-xs-12"  data-jumbo="4">
 						<div class="jumbotron-button-content">
 							<div class="icon">
 								<i class="fa fa-gift"></i>
 							</div>
-							<p>Kitchen interior design</p>
+							<p>Kitchen Interior Design</p>
 						</div>
 					</div>
 				</a>
@@ -461,6 +486,8 @@
 			</div>
 		</div>
 	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="js/flickity.pkgd.min.js"></script>
+	<script src="js/scripts.js"></script>
 </body>
 </html>

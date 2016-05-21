@@ -265,6 +265,10 @@ header
 	background-size: cover;
 	height: 60vh;
 	color: white;
+	display: none;
+	&.active {
+		display: block;
+	}
 }
 .jumbotron h2 {
 	font-size: 44px;
@@ -288,13 +292,16 @@ header
 	background: #F1F1F1;
 
 }
-.jumbotron-buttons:hover {
+.jumbotron-buttons:hover,
+.jumbotron-buttons.active {
 	background: $gold;
 }
-.jumbotron-buttons:hover p{
+.jumbotron-buttons:hover p,
+.jumbotron-buttons.active p{
 	color: white;
 }
-.jumbotron-buttons:hover i{
+.jumbotron-buttons:hover i,
+.jumbotron-buttons.active i{
 	color: white;
 }
 .jumbotron-button-content {
@@ -314,6 +321,30 @@ header
 }
 image:hover #truck {
 	fill: black;
+}
+
+.jumbo-container {
+	position: relative;
+}
+.jumbo-controls {
+	a {
+		position: absolute;
+		top: 160px;
+		color: black;
+		opacity: 0.8;
+		&:hover {
+			opacity: 0.3;
+		}
+		i {
+			font-size: 45px;
+		}
+	}
+	.control-left {
+		left: 10%;
+	}
+	.control-right {
+		right: 10%;
+	}
 }
 // ------------ About Styles  ------------ 
 .about {
