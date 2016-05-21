@@ -34,9 +34,7 @@ app.jumbotron = function(){
 			$('.jumbotron-buttons[data-jumbo='+(dataMin)+']').addClass('active');
 		}
 	})
-
-	$('.control-right').on('click', function(e){
-		e.preventDefault();
+	var moveRight = function () {
 		var data = $('.jumbotron.active').data('index');
 		var dataMin = data+1;
 		$('.jumbotron').removeClass('active');
@@ -50,7 +48,16 @@ app.jumbotron = function(){
 			$('.jumbotron[data-index='+(dataMin)+']').addClass('active');
 			$('.jumbotron-buttons[data-jumbo='+(dataMin)+']').addClass('active');
 		}
+	}
+
+	$('.control-right').on('click', function(e){
+		e.preventDefault();
+		moveRight();
 	})
+
+	setInterval(function(){ 
+		moveRight();
+	}, 4000);
 }
 
 
