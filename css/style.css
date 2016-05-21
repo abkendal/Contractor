@@ -692,6 +692,33 @@ p.project-name {
   position: relative;
 }
 
+.overlay:before {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  left: 0;
+  right: 0;
+  color: white;
+}
+
+.box {
+  cursor: pointer;
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay-btn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+}
+
 #overlay1 {
   background: #FFC554;
   text-align: center;

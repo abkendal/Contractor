@@ -4,14 +4,10 @@ var app = {};
 
 // Jumbotron selector
 app.jumbotron = function(){
+
+	// Item buttons
 	$('.jumbotron-buttons').on('click', function(e) {
 		e.preventDefault();
-		// var data = $(this).data('jumbo');
-		// $('.jumbotron').removeClass('active');
-		// $(data).addClass('active');
-		// $('.jumbotron-buttons').removeClass('active');
-		// $(this).addClass('active');
-
 		var data = $(this).data('jumbo');
 		$('.jumbotron').removeClass('active');
 		$('.jumbotron[data-index='+data+']').addClass('active');
@@ -21,7 +17,7 @@ app.jumbotron = function(){
 	});
 
 
-
+	// Slider controls
 	$('.control-left').on('click', function(e){
 		e.preventDefault();
 		var data = $('.jumbotron.active').data('index');
