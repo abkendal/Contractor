@@ -1,6 +1,7 @@
 // Constructor website javascript
 
 var app = {};
+var jumboTimer;
 
 // Jumbotron selector
 app.jumbotron = function(){
@@ -13,6 +14,8 @@ app.jumbotron = function(){
 		$('.jumbotron[data-index='+data+']').addClass('active');
 		$('.jumbotron-buttons').removeClass('active');
 		$(this).addClass('active');
+		clearInterval(jumboTimer);
+		jumboTimer = setInterval(function(){ moveRight()}, 4000);
 
 	});
 
@@ -55,9 +58,7 @@ app.jumbotron = function(){
 		moveRight();
 	})
 
-	setInterval(function(){ 
-		moveRight();
-	}, 4000);
+	jumboTimer = setInterval(function(){ moveRight()}, 4000);
 }
 
 

@@ -1,6 +1,10 @@
 $lightergrey: #B9B6B6;
 $lightgrey: #333333;
 $gold: #FFC554;
+$xs: 480px;
+$sm: 768px;
+$md: 992px;
+$lg: 1200px;
 
 @import 'mixins';
 
@@ -90,6 +94,9 @@ a {
   width: 100%; /* full width */
   height: 160px; /* height of gallery */
   margin-right: 10px;
+}
+.smooth {
+
 }
 
 // ------------ Nav Styles  ------------ 
@@ -271,7 +278,7 @@ header
 	color: white;
 	display: none;
 	&.active {
-		display: block;
+		display: table;
 	}
 }
 .jumbo1 {
@@ -289,20 +296,42 @@ header
     background-size: cover;
 }
 .jumbotron h2 {
-	font-size: 44px;
+	font-size: 30px;
 	text-transform: uppercase;
-	margin: 15px 0;
+	margin: 15px auto;
+	width: 80%;
+	@include smooth;
+	@media (min-width: $sm) {
+		font-size: 44px;
+		
+
+	}
 }
 .jumbotron h3 {
 	margin: 0;
 	padding-bottom: 20px;
+	@include smooth;
 }
 .jumbo-text {
-	position: relative;
-	top: 30vh;
+	display: table-cell;
+	vertical-align: middle;
 	h2:before {
-		content: url(../assets/bars.png);
 		padding-right: 15px;
+		background-image: url(../assets/bars.png);
+	    background-size: 25px 25px;
+	    display: inline-block;
+	    width: 25px; 
+	    height: 25px;
+	    content:"";
+	    position: relative;
+	    right: 10px;
+	    @media (min-width: $sm){
+	    	background-size: 65px 65px;
+	    	width: 65px; 
+	    	height: 65px;
+	    	right: 20px;
+	    }
+
 	}
 }
 .jumbotron-buttons {
@@ -355,7 +384,10 @@ image:hover #truck {
 		}
 		i {
 			color: white;
-			font-size: 45px;
+			font-size: 20px;
+			@media (min-width: $sm){
+				font-size: 45px;
+			}
 		}
 	}
 	.control-left {

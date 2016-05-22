@@ -32,3 +32,9 @@
 	color:rgba(255,255,255,.85);
 	font-size:96px;
 }
+
+@mixin smooth {
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+}
