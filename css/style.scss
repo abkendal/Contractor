@@ -277,6 +277,8 @@ header
 	height: 60vh;
 	color: white;
 	display: none;
+	background-size: cover;
+	width: 100%;
 	&.active {
 		display: table;
 	}
