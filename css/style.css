@@ -434,10 +434,10 @@ header {
 
 .jumbotron {
   margin-top: -75px;
-  background-size: cover;
   height: 60vh;
   color: white;
   display: none;
+  width: 100%;
 }
 
 .jumbotron.active {
@@ -446,14 +446,17 @@ header {
 
 .jumbo1 {
   background: url(../assets/jumbotron1.jpg) no-repeat;
+  background-size: cover;
 }
 
 .jumbo2 {
   background: url(../assets/jumbotron2.jpg) no-repeat;
+  background-size: cover;
 }
 
 .jumbo3 {
   background: url(../assets/jumbotron3.jpg) no-repeat;
+  background-size: cover;
 }
 
 .jumbo4 {
